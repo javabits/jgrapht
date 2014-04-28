@@ -27,8 +27,8 @@
 	</licenses>
 	<scm>
 		<url>https://github.com/jgrapht/jgrapht.git</url>
-		<connection>scm:git:git://github.com/jgrapht/jgrapht.git</connection>
-		<developerConnection>scm:git:git@github.com:jgrapht/jgrapht.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/javabits/jgrapht.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/javabits/jgrapht.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	<issueManagement>
