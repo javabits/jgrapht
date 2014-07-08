@@ -21,10 +21,12 @@
         <dependency>
             <groupId>org.tinyjee.jgraphx</groupId>
             <artifactId>jgraphx</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>jgraph</groupId>
             <artifactId>jgraph</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -37,7 +39,7 @@
                     <instructions>
                         <Export-Package>org.jgrapht.ext</Export-Package>
                         <Import-Package>javax.*;resolution:="optional",*</Import-Package>
-                        <Embed-Dependency>*;scope=compile;inline=true</Embed-Dependency>
+                        <Embed-Dependency>*;scope=compile|provided;inline=true</Embed-Dependency>
                     </instructions>
                 </configuration>
             </plugin>
